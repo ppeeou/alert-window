@@ -28,8 +28,7 @@
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "test": "babel-node ./lib/index.js",
-    "server": "parcel ./index.html",
-    "prod": "parcel build ./example/index.js"
+    "server": "parcel ./index.html"
   },
   "keywords": [
     "js",
